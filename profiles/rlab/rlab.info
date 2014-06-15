@@ -1,0 +1,142 @@
+; Packaging information for rlab
+name = "Research Lab"
+description = "College Research Project"
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; @font-your-face
+dependencies[] = fontyourface
+dependencies[] = fontyourface_ui
+dependencies[] = fontyourface_wysiwyg
+dependencies[] = typekit_api
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+; Chaos tool suite
+dependencies[] = ctools
+; Charting
+dependencies[] = google_chart_tools
+dependencies[] = google_chart_tools_example
+dependencies[] = google_chart_tools_views
+; Context
+dependencies[] = context
+dependencies[] = context_layouts
+dependencies[] = context_ui
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = syslog
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+; Features extra
+dependencies[] = fe_block
+; Fields
+dependencies[] = entityreference
+dependencies[] = field_collection
+dependencies[] = field_group
+dependencies[] = link
+; Flex Slider
+dependencies[] = flexslider
+dependencies[] = flexslider_fields
+dependencies[] = flexslider_views
+dependencies[] = flexslider_views_slideshow
+; Media
+dependencies[] = imce
+dependencies[] = video_embed_facebook
+dependencies[] = video_embed_field
+; Menu
+dependencies[] = void_menu
+; Other
+dependencies[] = auto_nodetitle
+dependencies[] = backup_migrate
+dependencies[] = colorbox
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = field_collection_views
+dependencies[] = fitvids
+dependencies[] = graphael
+dependencies[] = graphael_example
+dependencies[] = insert
+dependencies[] = libraries
+dependencies[] = menu_attributes
+dependencies[] = menu_block
+dependencies[] = module_filter
+dependencies[] = nodeblock
+dependencies[] = pathauto
+dependencies[] = plup
+dependencies[] = profile2
+dependencies[] = raphael
+dependencies[] = securepages
+dependencies[] = select_or_other
+dependencies[] = strongarm
+dependencies[] = token
+; Spam control
+dependencies[] = captcha
+dependencies[] = image_captcha
+; Textbook
+dependencies[] = textbook
+; Theme Tools
+dependencies[] = delta
+dependencies[] = delta_blocks
+dependencies[] = delta_color
+dependencies[] = delta_ui
+dependencies[] = omega_tools
+; User interface
+dependencies[] = ckeditor_link
+dependencies[] = imce_wysiwyg
+dependencies[] = jquery_update
+dependencies[] = superfish
+dependencies[] = wysiwyg
+; Views
+dependencies[] = better_exposed_filters
+dependencies[] = views
+dependencies[] = views_accordion
+dependencies[] = views_infinite_scroll
+dependencies[] = views_slideshow
+dependencies[] = views_timelinejs
+dependencies[] = views_ui
+; Webform
+dependencies[] = webform
+; XML sitemap
+dependencies[] = xmlsitemap
+; Features
+dependencies[] = features
+dependencies[] = views_timelinejs_feature
+dependencies[] = rlab_styles
+dependencies[] = rlab_types
+dependencies[] = rlab_blocks
+dependencies[] = rlab_menus
+dependencies[] = rlab_views
+dependencies[] = rlab_vocab
+dependencies[] = rlab_settings
+
+; Information added by drupal.org packaging script on 2013-10-02
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "rlab"
+datestamp = "1380679454"
+

@@ -1,0 +1,17 @@
+; rlab make file for local development
+core = "7.x"
+api = "2"
+
+projects[drupal][version] = "7.x"
+; include the d.o. profile base
+includes[] = "drupal-org.make"
+
+; +++++ Libraries +++++
+
+; FitVids
+libraries[fitvids][directory_name] = "fitvids"
+libraries[fitvids][type] = "library"
+libraries[fitvids][destination] = "libraries"
+libraries[fitvids][download][type] = "get"
+libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
+

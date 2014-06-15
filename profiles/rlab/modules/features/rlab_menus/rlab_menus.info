@@ -1,0 +1,40 @@
+name = rLab Menus
+description = Activate the Menus
+core = 7.x
+package = RLAB
+php = 5.2.4
+features[features_api][] = api:1
+features[menu_custom][] = main-menu
+features[menu_custom][] = menu-content-editor-menu
+features[menu_custom][] = menu-issues-menu
+features[menu_custom][] = menu-main-navigation-menu
+features[menu_custom][] = menu-page-editor-menu
+features[menu_links][] = main-menu:<front>
+features[menu_links][] = main-menu:by-design
+features[menu_links][] = main-menu:node/1
+features[menu_links][] = main-menu:node/2
+features[menu_links][] = main-menu:node/3
+features[menu_links][] = main-menu:node/5
+features[menu_links][] = menu-content-editor-menu:admin/content
+features[menu_links][] = menu-content-editor-menu:node/add/news-item
+features[menu_links][] = menu-content-editor-menu:node/add/poster
+features[menu_links][] = menu-content-editor-menu:node/add/research-project
+features[menu_links][] = menu-content-editor-menu:node/add/timeline-date
+features[menu_links][] = menu-content-editor-menu:node/add/video-embed-node
+features[menu_links][] = menu-content-editor-menu:node/add/workshop
+features[menu_links][] = menu-page-editor-menu:admin/structure/menu/manage/menu-issues-menu
+features[menu_links][] = menu-page-editor-menu:node/1/edit
+features[menu_links][] = menu-page-editor-menu:node/2/edit
+features[menu_links][] = menu-page-editor-menu:node/3/edit
+features[menu_links][] = menu-page-editor-menu:node/38/edit
+features[menu_links][] = menu-page-editor-menu:node/5/edit
+features[menu_links][] = menu-page-editor-menu:node/6/edit
+features_exclude[dependencies][features] = features
+features_exclude[dependencies][menu] = menu
+
+; Information added by drupal.org packaging script on 2013-10-02
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "rlab"
+datestamp = "1380679454"
+

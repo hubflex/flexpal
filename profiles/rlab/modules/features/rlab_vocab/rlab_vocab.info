@@ -1,0 +1,19 @@
+name = RLAB Vocab
+description = Vocabulary
+core = 7.x
+package = RLAB
+features[features_api][] = api:1
+features[taxonomy][] = image_tags
+features[taxonomy][] = news_tags
+features[taxonomy][] = research_location_tags
+features[taxonomy][] = research_tag
+features[taxonomy][] = video_tags
+features_exclude[dependencies][features] = features
+features_exclude[dependencies][taxonomy] = taxonomy
+
+; Information added by drupal.org packaging script on 2013-10-02
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "rlab"
+datestamp = "1380679454"
+

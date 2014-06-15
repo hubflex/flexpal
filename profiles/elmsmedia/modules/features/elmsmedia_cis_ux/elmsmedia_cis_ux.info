@@ -1,0 +1,14 @@
+name = ELMSMedia CIS UX
+description = ELMS Media to CIS UX defaults for out of the box web services
+core = 7.x
+package = ELMSMedia
+dependencies[] = cis_service_connection
+dependencies[] = cis_service_connection_ux
+features[features_api][] = api:2
+
+; Information added by Drupal.org packaging script on 2014-04-10
+version = "7.x-1.0-alpha3"
+core = "7.x"
+project = "elmsmedia"
+datestamp = "1397161285"
+

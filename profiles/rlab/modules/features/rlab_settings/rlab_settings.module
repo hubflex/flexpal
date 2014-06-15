@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the RLAB settings feature.
+ */
+
+include_once 'rlab_settings.features.inc';

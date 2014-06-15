@@ -1,0 +1,39 @@
+name = RLAB Blocks
+core = 7.x
+package = RLAB
+dependencies[] = system
+features[fe_block_settings][] = delta_blocks-messages
+features[fe_block_settings][] = delta_blocks-page-title
+features[fe_block_settings][] = menu-menu-content-editor-menu
+features[fe_block_settings][] = menu-menu-page-editor-menu
+features[fe_block_settings][] = menu_block-1
+features[fe_block_settings][] = menu_block-3
+features[fe_block_settings][] = menu_block-4
+features[fe_block_settings][] = nodeblock-38
+features[fe_block_settings][] = system-help
+features[fe_block_settings][] = system-main
+features[fe_block_settings][] = views-content_image_slider-block
+features[fe_block_settings][] = views-content_image_slider-block_1
+features[fe_block_settings][] = views-full_banner-block
+features[fe_block_settings][] = views-news-block
+features[fe_block_settings][] = views-page_videos-block
+features[fe_block_settings][] = views-people-block_1
+features[fe_block_settings][] = views-posters-block
+features[fe_block_settings][] = views-timeline-block_1
+features[fe_block_settings][] = views-upcoming_workshops-block
+features[fe_block_settings][] = webform-client-block-18
+features[features_api][] = api:1
+features_exclude[dependencies][delta_blocks] = delta_blocks
+features_exclude[dependencies][fe_block] = fe_block
+features_exclude[dependencies][menu] = menu
+features_exclude[dependencies][menu_block] = menu_block
+features_exclude[dependencies][nodeblock] = nodeblock
+features_exclude[dependencies][views] = views
+features_exclude[dependencies][webform] = webform
+
+; Information added by drupal.org packaging script on 2013-10-02
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "rlab"
+datestamp = "1380679454"
+

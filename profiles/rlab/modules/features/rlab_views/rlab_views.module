@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the rLab Views feature.
+ */
+
+include_once 'rlab_views.features.inc';

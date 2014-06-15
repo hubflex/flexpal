@@ -1,0 +1,42 @@
+name = RLAB settings
+description = Variables and default settings
+core = 7.x
+package = RLAB
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[variable][] = admin_menu_cache_client
+features[variable][] = admin_menu_components
+features[variable][] = admin_menu_devel_modules_skip
+features[variable][] = admin_menu_margin_top
+features[variable][] = admin_menu_position_fixed
+features[variable][] = admin_theme
+features[variable][] = delta_blocks_branding_logo_linked
+features[variable][] = delta_blocks_branding_logo_render
+features[variable][] = delta_blocks_branding_site_name_hidden
+features[variable][] = delta_blocks_branding_site_name_linked
+features[variable][] = delta_blocks_branding_site_slogan_hidden
+features[variable][] = delta_blocks_breadcrumb_current
+features[variable][] = delta_blocks_breadcrumb_title_hidden
+features[variable][] = delta_blocks_logo_linked
+features[variable][] = delta_blocks_page_title_hidden
+features[variable][] = delta_blocks_site_name_hidden
+features[variable][] = delta_blocks_site_name_linked
+features[variable][] = delta_blocks_site_slogan_hidden
+features[variable][] = delta_blocks_toggle
+features[variable][] = site_frontpage
+features[variable][] = site_name
+features[variable][] = site_slogan
+features[variable][] = theme_default
+features[variable][] = theme_research_lab_settings
+features[variable][] = update_check_disabled
+features[variable][] = update_check_frequency
+features[variable][] = update_notification_threshold
+
+; Information added by drupal.org packaging script on 2013-10-02
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "rlab"
+datestamp = "1380679454"
+

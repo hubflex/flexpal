@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the rLab types feature.
+ */
+
+include_once 'rlab_types.features.inc';

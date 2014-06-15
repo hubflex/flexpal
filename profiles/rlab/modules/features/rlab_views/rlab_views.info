@@ -1,0 +1,37 @@
+name = rLab Views
+description = This will turn on the views
+core = 7.x
+package = RLAB
+php = 5.2.4
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = aggregated_research_pages
+features[views_view][] = clone_of_content_chunk_assign_people_page
+features[views_view][] = content_chuck_assign_issues_page
+features[views_view][] = content_chunk_assign_by_design_page
+features[views_view][] = content_chunk_assign_issues_page
+features[views_view][] = content_chunk_assign_why_design_page
+features[views_view][] = content_chunk_assigner
+features[views_view][] = content_image_slider
+features[views_view][] = full_banner
+features[views_view][] = news
+features[views_view][] = page_videos
+features[views_view][] = people
+features[views_view][] = posters
+features[views_view][] = research_for_node_page
+features[views_view][] = timeline_view
+features[views_view][] = upcoming_workshops
+features_exclude[dependencies][better_exposed_filters] = better_exposed_filters
+features_exclude[dependencies][field_collection_views] = field_collection_views
+features_exclude[dependencies][flexslider_views] = flexslider_views
+features_exclude[dependencies][fontyourface_ui] = fontyourface_ui
+features_exclude[dependencies][views] = views
+features_exclude[dependencies][views_accordion] = views_accordion
+features_exclude[dependencies][views_slideshow] = views_slideshow
+
+; Information added by drupal.org packaging script on 2013-10-02
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "rlab"
+datestamp = "1380679454"
+
